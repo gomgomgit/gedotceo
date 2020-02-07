@@ -1,0 +1,543 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>gomgomComprof</title>
+   <!-- Latest compiled and minified CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+
+  <!-- font awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css" integrity="sha256-+N4/V/SbAFiW1MPBCXnfnP9QSN3+Keu+NlB+0ev/YKQ=" crossorigin="anonymous" />
+  
+  <!-- Owl-carousel -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" />
+
+  <!-- JS aos -->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+  <!-- Shepherd -->
+  <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/shepherd/1.8.1/css/shepherd-theme-default.min.css"/> -->
+   <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/shepherd/1.8.1/css/shepherd-theme-square.min.css"/> -->
+   <!-- <link rel="stylesheet" href="shepherd.js/dist/css/shepherd.css"/> -->
+   <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/shepherd/1.8.1/css/shepherd-theme-arrows.min.css"/> -->
+
+  <!-- font -->
+  <link href="https://fonts.googleapis.com/css?family=Aladin|PT+Sans+Narrow:400,700&display=swap" rel="stylesheet">
+
+  <!-- my css -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<!--   <div id="ge" class="logo fixed-bottom d-inline-block rounded-circle" style="
+    right: 15px; left: auto; bottom: 15px; top: auto !important;"><h1>g</h1></div> -->
+
+  <div class="bar-info">
+    <div class="container">
+    <nav class="navbar navbar-expand-sm navbar-light justify-content-between align-items-center px-0">
+        <div class="contact">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="#"><i class="fas fa-envelope"></i><p class="d-inline ml-2"> info@geceo.com</p></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#"><i class="fas fa-mobile-alt"></i><p class="d-inline ml-2"> +00 (123) 45678 90</p></a>
+            </li>
+          </ul>
+        </div>
+        <div class="socialmedia">
+          <ul class="navbar-nav">
+            <li class=" nav-item facebook">
+              <a class="nav-link" href="#"><i class="fab fa-facebook-f"> </i></a>
+            </li>
+            <li class=" nav-item googleplus">
+              <a class="nav-link" href="#"><i class="fab fa-google-plus-g"> </i></a>
+            </li>
+            <li class=" nav-item twitter">
+              <a class="nav-link" href="#"><i class="fab fa-twitter"> </i></a>
+            </li>
+            <li class=" nav-item pinterest">
+              <a class="nav-link" href="#"><i class="fab fa-pinterest-p"> </i></a>
+            </li>
+            <li class=" nav-item behance">
+              <a class="nav-link" href="#"><i class="fab fa-behance"> </i></a>
+            </li>
+            <li class=" nav-item dribbble">
+              <a class="nav-link" href="#"><i class="fab fa-dribbble"> </i></a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+  </div>
+
+  <div class="head position-relative" data-parallax="scroll" data-image-src="https://www.tokkoro.com/picsup/3056632-city_climbing_debris_discovery_man_rooftop_sport.jpg" data-speed="0.5" data-natural-width="100%">
+    <div class="darker position-absolute"></div>
+    <nav class="navbar navbar-expand-sm navbar-head navbar-dark justify-content-between py-3 navbar-transparent">
+      <div class="container justify-content-between">
+        <!-- Brand -->
+        <a class="navbar-brand logo logo-head" href="#">ge.ceo</a>
+
+        <!-- Links -->
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link active" href="#">HOME</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">CONTACT</a>
+          </li>
+
+          <!-- Dropdown -->
+          <li class="nav-item dropdown <!-- position-static -->">
+            <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+              ABOUT US
+            </a>
+            <div class="dropdown-menu nav-drop">
+              <div class="container d-flex justify-content-end">
+                <a class="dropdown-item drop-item" href="#">link 1</a>
+                <a class="dropdown-item drop-item" href="#">link 2</a>
+                <a class="dropdown-item drop-item" href="#">Link 3</a>
+              </div>
+            </div>
+          </li>
+          <li class="nav-item dropdown text-light">
+            <a class="nav-link" href="#"><i class="fas fa-search"></i></a>
+          </li>
+        </ul>
+      </div>
+
+      <!-- <div class="dropdown-menu nav-drop">
+        <a class="dropdown-item" href="#">link 1</a>
+        <a class="dropdown-item" href="#">link 2</a>
+        <a class="dropdown-item" href="#">Link 3</a>
+      </div> -->
+    </nav>
+
+
+    <div class="jumbotron jumbotron-fluid text-center position-relative">
+      <div class="container text-light">
+        <div class="welcome position-absolute">
+          <h5 class="font-psn font-weight-bold" data-aos="fade-up" data-aos-delay="500" data-aos-duration="700">WITH GE.CEO</h5>
+          <h2 class="font-psn w-50 mx-auto" data-aos="zoom-in-up" data-aos-delay="700" data-aos-duration="800">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Impedit quibusdam tempore quae nemo sunt optio delectus, minus odit non doloremque eos praesentium aliquid in nesciunt corporis beatae accusamus numquam? Impedit laboriosam, consectetur ex omnis vero voluptatum ducimus itaque eaque!</h2>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="container mt-5 text-center wcu" data-midnight="white">
+    <div class="wcu-top mb-5">
+      <h2 class="font-weight-bold" data-aos="fade-up" data-aos-duration="700">WHY CHOOSE US</h2>
+      <p class="w-75 mx-auto mt-3" data-aos="zoom-in-up" data-aos-duration="900" data-aos-delay="400">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil enim totam ad. Possimus nihil incidunt accusantium, dolor inventore laboriosam, voluptatibus explicabo, perspiciatis esse consectetur assumenda.</p>
+    </div>
+
+    <div class="row">
+      <div class="col-md-4" data-aos="fade-right" data-aos-duration="700" data-aos-delay="600">
+        <div class="wcu-item">
+          <div class="wcu-content">
+            <i class="fas fa-scroll m-4 text-secondary"></i>
+            <h3 class="font-weight-bold">High Quality</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum aut incidunt earum repellat, recusandae, ab asperiores iure nulla quasi placeat alias.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4" data-aos="fade-right" data-aos-duration="700" data-aos-delay="1000">
+        <div class="wcu-item">
+          <div class="wcu-content">
+            <i class="fas fa-scroll m-4 text-secondary"></i>
+            <h3 class="font-weight-bold">High Quality</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum aut incidunt earum repellat, recusandae, ab asperiores iure nulla quasi placeat alias.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4" data-aos="fade-right" data-aos-duration="700" data-aos-delay="1400">
+        <div class="wcu-item">
+          <div class="wcu-content">
+            <i class="fas fa-scroll m-4 text-secondary"></i>
+            <h3 class="font-weight-bold">High Quality</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum aut incidunt earum repellat, recusandae, ab asperiores iure nulla quasi placeat alias.</p>
+          </div>
+        </div>
+      </div>  
+    </div>
+  </div>
+
+  <div class="row mt-5 justify-content-between reach mr-0" data-aos="zoom-in" data-aos-duration="1000">
+    <div class="col-md-6 img-reach">
+      <img src="https://wallpaperaccess.com/full/97468.jpg" alt="bmw-vintage.jpg">
+    </div>
+    <div class="col-md-6 py-4 d-flex flex-column justify-content-center reach-content">
+      <h2 class="ml-3 font-weight-bold" data-aos="fade-left" data-aos-duration="1200" data-aos-delay="300"data-aos-offset="250">THE LARGEST REACH IN INDONESIA</h2>
+      <p class="mb-3" style="line-height: 2;" data-aos="fade-left" data-aos-duration="1200" data-aos-delay="500" data-aos-offset="200">These cases are perfectly simple and easy to distinguish. In a free hour,
+when our power of choice is untrammelled and when nothing prevents
+our being able to do what we like best.</p>
+      <ul class="mb-5">
+        <li data-aos="fade-left" data-aos-duration="1200" data-aos-delay="600" data-aos-offset="150">Apartments frequently or motionless. </li>
+        <li data-aos="fade-left" data-aos-duration="1200" data-aos-delay="800">Duis aute irure dolor in reprehenderit in voluptate. </li>
+        <li data-aos="fade-left" data-aos-duration="1200" data-aos-delay="1000"data-aos-offset="50">Voluptatem quia voluptas sit aspernatur.</li>
+      </ul>
+
+      <button class="btn btn-secondary align-self-start px-5 py-2" data-aos="zoom-out" data-aos-duration="1000" data-aos-delay="1200" data-aos-offset="0">About Us</button>
+    </div>
+  </div>
+
+  <div class="container mt-5 row-product">
+    <h2 class="font-weight-bold text-center" data-aos="fade-up" data-aos-duration="900">Our Product</h2>
+    <div class="row">
+      <div class="col-md-3" data-aos="flip-left" data-aos-duration="900" data-aos-delay="700">
+        <img src="https://www.medallia.com/wp-content/uploads/2019/05/icon-iso-1@2x-1.png" alt="">
+        <h3 class="font-weight-bold text-center">THIS</h3>
+      </div>
+      <div class="col-md-3" data-aos="flip-left" data-aos-duration="900" data-aos-delay="1000">
+        <img src="https://www.medallia.com/wp-content/uploads/2019/05/icon-iso-1@2x-1.png" alt="">
+        <h3 class="font-weight-bold text-center">THIS</h3>
+      </div>
+      <div class="col-md-3" data-aos="flip-left" data-aos-duration="900" data-aos-delay="1300">
+        <img src="https://www.medallia.com/wp-content/uploads/2019/05/icon-iso-1@2x-1.png" alt="">
+        <h3 class="font-weight-bold text-center">THIS</h3>
+      </div>
+      <div class="col-md-3" data-aos="flip-left" data-aos-duration="900" data-aos-delay="1600">
+        <img src="https://www.medallia.com/wp-content/uploads/2019/05/icon-iso-1@2x-1.png" alt="">
+        <h3 class="font-weight-bold text-center">THIS</h3>
+      </div>
+    </div>
+  </div>
+  
+  <div class="event position-relative" id="event">
+    <div class="darker position-absolute"></div>
+    <div class="container mt-5 pt-5">
+      <div class="lastest text-center mx-auto w-50 text-light position-relative">
+        <h2 class="font-weight-bold" data-aos="fade-up" data-aos-duration="800" data-aos-delay="0" data-aos-offset="250">Last Event We Attend</h2>
+        <p class="mx-auto" data-aos="zoom-in-up" data-aos-duration="1000" data-aos-delay="300"data-aos-offset="250">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum laudantium adipisci similique perspiciatis, id quaerat fugiat illo non perferendis. Ipsam, odit? Eius.</p>
+      </div>
+      <div class="row">
+        <div class="col-sm-4 my-5 lewa1" data-aos="fade-up" data-aos-duration="900" data-aos-delay="400" data-aos-easing="ease-out" data-aos-offset="250" data-aos-offset="0">
+          <div class="card work-card border-0">
+            <div class="card-img-top position-relative d-flex justify-content-center">
+              <img class="card-img-top" src="https://www.medallia.com/wp-content/uploads/2019/12/Paypal.jpg" alt="">
+              <div class="card-img-overlay"></div>
+            </div>
+            <div class="card-body position-relative">
+              <h5>Breakly.</h5>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minus consequatur enim optio delectus quae, unde odit.</p>
+              <a href="#">Learn More...</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-4 my-5 lewa2" data-aos="fade-up" data-aos-duration="900" data-aos-delay="700" data-aos-easing="ease-out" data-aos-offset="250">
+          <div class="card work-card border-0">
+            <div class="card-img-top position-relative d-flex justify-content-center">
+              <img class="card-img-top" src="https://www.medallia.com/wp-content/uploads/2019/12/Farmers-Insurance.jpg" alt="">
+              <div class="card-img-overlay"></div>
+            </div>
+            <div class="card-body position-relative">
+              <h5>Breakly.</h5>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minus consequatur enim optio delectus quae, unde odit.</p>
+              <a href="#">Learn More...</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-4 my-5 lewa3" data-aos="fade-up" data-aos-duration="900" data-aos-delay="1000" data-aos-easing="ease-out" data-aos-offset="250">
+          <div class="card work-card border-0">
+            <div class="card-img-top position-relative d-flex justify-content-center">
+              <img class="card-img-top" src="https://www.medallia.com/wp-content/uploads/2019/12/Sephora.jpg" alt="">
+              <div class="card-img-overlay"></div>
+            </div>
+            <div class="card-body position-relative">
+              <h5>Breakly.</h5>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minus consequatur enim optio delectus quae, unde odit.</p>
+              <a href="#">Learn More...</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="container mt-5 collabs">
+    <h2 class="text-center font-weight-bold" data-aos="fade-up" data-aos-duration="900" data-aos-delay="400">Our Collabs</h2>
+    <div class="row owl-carousel owl-theme" style="margin-bottom:25px;">
+              
+              <!-- EG FB1 -->
+              <div class="brand position-relative" data-aos="fade-up" data-aos-duration="900" data-aos-delay="600">
+                      <img src="https://static-id.zacdn.com/cms/staticpages/550x350_ABERCROMBIEFITCH_02180702.png" alt="">
+                      <div class="darker-hover position-absolute"></div>
+                  
+              </div>
+              <!-- EG FB2 -->
+
+              <div class="brand position-relative" data-aos="fade-up" data-aos-duration="900" data-aos-delay="600">
+                      <img src="https://static-id.zacdn.com/cms/staticpages/550x350_ALDO_02180702.png" alt="">
+                      <div class="darker-hover position-absolute"></div>
+                  
+              </div>
+
+              <div class="brand position-relative" data-aos="fade-up" data-aos-duration="900" data-aos-delay="600">
+                      <img src="https://static-id.zacdn.com/cms/staticpages/550x350_BANANAREPUBLIC_MEN.png" alt="">
+                      <div class="darker-hover position-absolute"></div>
+                  
+              </div>
+
+              <div class="brand position-relative" data-aos="fade-up" data-aos-duration="900" data-aos-delay="600">
+                      <img src="https://static-id.zacdn.com/cms/cw04/500x350_BENSHERMAN.jpg" alt="">
+                      <div class="darker-hover position-absolute"></div>
+                  
+              </div>
+
+              <div class="brand position-relative" data-aos="fade-up" data-aos-duration="900" data-aos-delay="600">
+                      <img src="https://static-id.zacdn.com/cms/cw45/500x350_BILLABONG.png" alt="">
+                      <div class="darker-hover position-absolute"></div>
+                  
+              </div>
+
+              <div class="brand position-relative" data-aos="fade-up" data-aos-duration="900" data-aos-delay="600">
+                      <img src="https://static-id.zacdn.com/cms/staticpages/550x350_BVLGARI.png" alt="">
+                      <div class="darker-hover position-absolute"></div>
+                  
+              </div>
+
+              <div class="brand position-relative" data-aos="fade-up" data-aos-duration="900" data-aos-delay="600">
+                      <img src="https://static-id.zacdn.com/cms/cw04/500x350_COLUMBIA.jpg" alt="">
+                      <div class="darker-hover position-absolute"></div>
+                  
+              </div>
+
+              <!-- EG FB3 -->
+              <div class="brand position-relative" data-aos="fade-up" data-aos-duration="900" data-aos-delay="600">
+                      <img src="https://static-id.zacdn.com/cms/staticpages/550x350_COTTONON_02180702.png" alt="">
+                      <div class="darker-hover position-absolute"></div>
+                  
+              </div>   
+
+              <div class="brand position-relative" data-aos="fade-up" data-aos-duration="900" data-aos-delay="600">
+                      <img src="https://static-id.zacdn.com/cms/staticpages/550x350_DANIELWELLINGTON_02180702.png" alt="">
+                      <div class="darker-hover position-absolute"></div>
+                  
+              </div>  
+
+              <div class="brand position-relative" data-aos="fade-up" data-aos-duration="900" data-aos-delay="600">
+                      <img src="https://static-id.zacdn.com/cms/staticpages/550x350_DC_02180702_02180702.png" alt="">
+                      <div class="darker-hover position-absolute"></div>
+                  
+              </div> 
+
+              <div class="brand position-relative" data-aos="fade-up" data-aos-duration="900" data-aos-delay="600">
+                      <img src="https://static-id.zacdn.com/cms/staticpages/550x350_ESPRIT_02180702.png" alt="">
+                      <div class="darker-hover position-absolute"></div>
+                  
+              </div> 
+
+              <div class="brand position-relative" data-aos="fade-up" data-aos-duration="900" data-aos-delay="600">
+                      <img src="https://static-id.zacdn.com/cms/staticpages/550x350_GAP_MEN.png" alt="">
+                      <div class="darker-hover position-absolute"></div>
+                  
+              </div> 
+
+              <!--ROW-->
+              <div class="brand position-relative" data-aos="fade-up" data-aos-duration="900" data-aos-delay="600">
+                      <img src="https://static-id.zacdn.com/cms/cw34/500x350_HERSCHEL_20190821.png" alt="">
+                      <div class="darker-hover position-absolute"></div>
+                  
+              </div>
+
+              <div class="brand position-relative" data-aos="fade-up" data-aos-duration="900" data-aos-delay="600">
+                      <img src="https://static-id.zacdn.com/cms/staticpages/550x350_HOLLISTER_02180702.png" alt="">
+                      <div class="darker-hover position-absolute"></div>
+                  
+              </div>
+
+              <div class="brand position-relative" data-aos="fade-up" data-aos-duration="900" data-aos-delay="600">
+                      <img src="https://static-id.zacdn.com/cms/cw32/LECOQSPORTIF.png" alt="">
+                      <div class="darker-hover position-absolute"></div>
+                  
+              </div>
+
+              <div class="brand position-relative" data-aos="fade-up" data-aos-duration="900" data-aos-delay="600">
+                      <img src="https://static-id.zacdn.com/cms/cw04/500x350_LEE.jpg" alt="">
+                      <div class="darker-hover position-absolute"></div>
+                  
+              </div>
+
+              <div class="brand position-relative" data-aos="fade-up" data-aos-duration="900" data-aos-delay="600">
+                      <img src="https://static-id.zacdn.com/cms/staticpages/550x350_MANGOMAN_02180712rev.png" alt="">
+                      <div class="darker-hover position-absolute"></div>
+                  
+              </div>
+
+              <div class="brand position-relative" data-aos="fade-up" data-aos-duration="900" data-aos-delay="600">
+                      <img src="https://static-id.zacdn.com/cms/staticpages/550x350_MARKSSPENCER.png" alt="">
+                      <div class="darker-hover position-absolute"></div>
+                  
+              </div>
+
+              <div class="brand position-relative" data-aos="fade-up" data-aos-duration="900" data-aos-delay="600">
+                      <img src="https://static-id.zacdn.com/cms/cw04/500x350_NAUTICA.jpg" alt="">
+                      <div class="darker-hover position-absolute"></div>
+                  
+              </div>
+
+              <div class="brand position-relative" data-aos="fade-up" data-aos-duration="900" data-aos-delay="600">
+                      <img src="https://static-id.zacdn.com/cms/staticpages/550x350_NIKE_02180702.png" alt="">
+                      <div class="darker-hover position-absolute"></div>
+                  
+              </div> 
+
+              <div class="brand position-relative" data-aos="fade-up" data-aos-duration="900" data-aos-delay="600">
+                      <img src="https://static-id.zacdn.com/cms/staticpages/550x350_QUIKSILVER_02180702.png" alt="">
+                      <div class="darker-hover position-absolute"></div>
+                  
+              </div>
+
+              <div class="brand position-relative" data-aos="fade-up" data-aos-duration="900" data-aos-delay="600">
+                      <img src="https://static-id.zacdn.com/cms/staticpages/550x350_RAYBAN_02180702.png" alt="">
+                      <div class="darker-hover position-absolute"></div>
+                  
+              </div>  
+
+              <div class="brand position-relative" data-aos="fade-up" data-aos-duration="900" data-aos-delay="600">
+                      <img src="https://static-id.zacdn.com/cms/staticpages/550x350_REEBOK_MEN.png" alt="">
+                      <div class="darker-hover position-absolute"></div>
+                  
+              </div>   
+
+              <div class="brand position-relative" data-aos="fade-up" data-aos-duration="900" data-aos-delay="600">
+                      <img src="https://static-id.zacdn.com/cms/staticpages/550x350_RIVERISLAND_02180702.png" alt="">
+                      <div class="darker-hover position-absolute"></div>
+                  
+              </div> 
+
+              <div class="brand position-relative" data-aos="fade-up" data-aos-duration="900" data-aos-delay="600">
+                      <img src="https://static-id.zacdn.com/cms/cw45/500x350_RVCA.png" alt="">
+                      <div class="darker-hover position-absolute"></div>
+                  
+              </div>
+
+              <div class="brand position-relative" data-aos="fade-up" data-aos-duration="900" data-aos-delay="600">
+                      <img src="https://static-id.zacdn.com/cms/staticpages/550x350_SUPERDRY_02180702.png" alt="">
+                      <div class="darker-hover position-absolute"></div>
+                  
+              </div> 
+
+              <div class="brand position-relative" data-aos="fade-up" data-aos-duration="900" data-aos-delay="600">
+                      <img src="https://static-id.zacdn.com/cms/cw32/SUPERGA.png" alt="">
+                      <div class="darker-hover position-absolute"></div>
+                  
+              </div>       
+
+              <!--ROW-->
+
+              <div class="brand position-relative" data-aos="fade-up" data-aos-duration="900" data-aos-delay="600">
+                      <img src="https://static-id.zacdn.com/cms/staticpages/550x350_UNDERARMOUR_02180702.png" alt="">
+                      <div class="darker-hover position-absolute"></div>
+                  
+              </div>
+
+              <div class="brand position-relative" data-aos="fade-up" data-aos-duration="900" data-aos-delay="600">
+                      <img src="https://static-id.zacdn.com/cms/cw04/500x350_WRANGLER.jpg" alt="">
+                      <div class="darker-hover position-absolute"></div>
+                  
+              </div>
+    </div>
+  </div>
+
+
+
+  <div class="footer pb-5 mt-5">
+    <div class="container">
+      <div class="row we-footer justify-content-between align-items-end">
+        <div class="col-md-6">
+          <a class="text-light logo logo-footer" href="#">ge.ceo</a>
+        </div>
+        <div class="col-md-6 d-flex justify-content-end">
+              <a class="nav-link btn btn-light rounded-circle mr-2 icon-circle position-relative" href="#">
+                  <i class="fab fa-facebook-f position-absolute icon-absolute"> </i>
+              </a>
+              <a class="nav-link btn btn-light rounded-circle mr-2 icon-circle position-relative" href="#">
+                  <i class="fab fa-google-plus-g position-absolute icon-absolute"> </i>
+              </a>
+              <a class="nav-link btn btn-light rounded-circle mr-2 icon-circle position-relative" href="#">
+                  <i class="fab fa-twitter position-absolute icon-absolute"> </i>
+              </a>
+              <a class="nav-link btn btn-light rounded-circle mr-2 icon-circle position-relative" href="#">
+                  <i class="fab fa-pinterest-p position-absolute icon-absolute"> </i>
+              </a>
+              <a class="nav-link btn btn-light rounded-circle mr-2 icon-circle position-relative" href="#">
+                  <i class="fab fa-behance position-absolute icon-absolute"> </i>
+              </a>
+              <a class="nav-link btn btn-light rounded-circle mr-2 icon-circle position-relative" href="#">
+                  <i class="fab fa-dribbble position-absolute icon-absolute"> </i>
+              </a>
+        </div>
+      </div>
+      <div class="row mt-5 text-light">
+        <div class="col-md-4">
+          <h3 class="font-weight-bold">WHO ARE WE</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perspiciatis asperiores atque, ipsa delectus error enim est porro. Delectus ex aspernatur pariatur, aut, nam natus deserunt. Dolorem at libero ipsam hic unde, nihil.</p>
+        </div>
+        <div class="col-md-2">
+          <h3 class="font-weight-bold">SERVICE</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perspiciatis asperiores atque, ipsa delectus error enim est porro. Delectus ex aspernatur pariatur, aut, nam natus deserunt. Dolorem at libero ipsam hic unde, nihil.</p>
+        </div>
+        <div class="col-md-2">
+          <h3 class="font-weight-bold">CONTACT US</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perspiciatis asperiores atque, ipsa delectus error enim est porro. Delectus ex aspernatur pariatur, aut, nam natus deserunt. Dolorem at libero ipsam hic unde, nihil.</p>
+        </div>
+        <div class="col-md-4">
+          <h3 class="font-weight-bold">NEW IN GE.CEO?</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perspiciatis asperiores atque, ipsa delectus error enim est porro. Delectus ex aspernatur pariatur, aut, nam natus deserunt. Dolorem at libero ipsam hic unde, nihil.</p>
+          <div class="new">
+            <div class="input-group mb-3">
+              <input type="text" class="form-control" placeholder="Your Email" aria-label="Your Email" aria-describedby="basic-addon2">
+              <div class="input-group-append">
+                <button class="btn btn-outline-secondary" type="button">Subscribe</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="copyright text-light text-center bg-dark p-1">
+    <div class="container d-flex justify-content-between">
+      <p class="m-0 text-gray">gomet</p>
+      <p class="m-0 text-gray">&copy; ge.ceo 2020 All Rights Reserved.</p>
+    </div>
+  </div>
+
+  
+
+  <!-- jQuery library -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+  <!-- Popper JS -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+
+  <!-- Latest compiled JavaScript -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>   
+
+  <!-- Owl-carousel -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" ></script>
+
+  <!-- JS aos -->
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+  <!-- Parallax -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/parallax.js/1.5.0/parallax.min.js"></script>
+
+  <!-- Shepherd -->
+  <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/shepherd/1.8.1/js/shepherd.js"></script> -->
+  <script src="https://cdn.jsdelivr.net/npm/shepherd.js@5.0.1/dist/js/shepherd.js"></script>
+  <!-- <script src="https://cdn.jsdelivr.net/npm/tether-shepherd@1.8.1/dist/js/shepherd.min.js"></script> -->
+  <!-- <script src="https://cdn.jsdelivr.net/npm/tether-shepherd@1.8.1/dist/js/shepherd.min.js"></script> -->
+  <!-- <script src="https://cdn.jsdelivr.net/npm/tether-shepherd@1.8.1/dist/js/tether.min.js"></script> -->
+  <!-- <script src="https://cdn.jsdelivr.net/npm/shepherd.js@latest/dist/js/shepherd.min.js"></script> -->
+
+  <!-- Midnight js -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/midnight.js/1.1.2/midnight.jquery.min.js"></script>
+  <!-- <script src="https://cdn.jsdelivr.net/combine/npm/jquery@1.11,npm/midnight.js@1.1"></script> -->
+
+  <!-- MY JQUERY -->
+  <script src="script.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,344 @@
+
+body
+{
+    font-family: 'PT Sans Narrow', sans-serif;
+}
+.darker
+{
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+
+    opacity: 0.3;
+    background-color: #000;
+}
+.darker-hover
+{
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+
+    opacity: 0.3;
+    background-color: #000;
+    display: none;
+}
+div #ge {
+    right: 15px; left: auto; bottom: 15px;
+    background: #fff;
+    width: 60px; height: 60px;
+    text-align: center;
+}
+.ge h1 { margin: auto; display: inline-block; }
+/*.midnightHeader, .midnightInner { width: 100%; height: 100% }*/
+.bar-info
+{
+    font-size: 14px;
+
+    background: #dbc2a9;
+}
+.head-master {}
+.head
+{
+    /*background:  url('https://www.tokkoro.com/picsup/3056632-city_climbing_debris_discovery_man_rooftop_sport.jpg');*/
+    /*background-attachment: fixed;*/
+    /*background-size: 100%;*/
+    height: 100vh;
+}
+.parallax-mirror {
+    position: absolute;
+    bottom: 0;
+    overflow: hidden;
+}
+/*.head {
+    min-height: 400px;
+    background: transparent;
+}*/
+.navbar-head, .midnightHeader .default
+{
+    font-size: 20px;
+
+    transition: all 1s;
+
+    border-bottom: 2px solid #ddd;
+    background: transparent;
+}
+.nav-drop
+{
+    right: 0;
+    left: 0;
+
+    width: 100%;
+}
+.drop-item
+{
+    width: auto;
+}
+
+.text-light a
+{
+    color: inherit;
+}
+.logo
+{
+    font-family: 'Aladin', cursive;
+}
+.logo-head
+{
+    font-size: 60px;
+
+    margin-top: -15px;
+
+    transition: all 1s;
+}
+.logo-footer
+{
+    font-size: 60px;
+}
+.jumbotron
+{
+    top: 0;
+    right: 0;
+    left: 0;
+
+    height: 90vh;
+
+    background: none;
+}
+.welcome
+{
+    top: 50%;
+    right: 0;
+    bottom: 0;
+    left: 0;
+
+    transform: translateY(-50%);
+}
+.wcu-top
+{
+    font-size: 25px;
+}
+h2
+{
+    font-size: 40px;
+}
+.wcu-content
+{
+    font-size: 20px;
+}
+.wcu-content i
+{
+    font-size: 50px;
+}
+.wcu-content h3
+{
+    font-size: 30px;
+}
+.img-reach
+{
+    overflow: hidden;
+}
+.img-reach img
+{
+    width: 100%;
+}
+.reach
+{
+    font-size: 20px;
+
+    background-color: #dbc2a9;
+}
+.event {
+	/*background: url('https://p4.wallpaperbetter.com/wallpaper/491/287/636/bike-vintage-wallpaper-d8362dc870208c9800ac818e0802243a.jpg');*/
+    background-color: #c48856;
+	background-size: 100%;
+}
+.card
+{
+    background-color: #f5f5f5;
+}
+.work-card:hover
+{
+    transition: all .5s ease-out;
+
+    box-shadow: 0 0 15px 1px #666;
+}
+.work-card:hover img
+{
+    width: 120%;
+}
+.card-img-overlay
+{
+    opacity: .3;
+    background-color: #000;
+}
+.card-body
+{
+    z-index: 6;
+}
+.card-img-top
+{
+    overflow: hidden;
+
+    height: 260px;
+}
+.card-img-top img
+{
+    /*height: 100%;*/
+    width: 100%;
+
+    transition: all .5s ease-out;
+    vertical-align: middle;
+
+    object-fit: cover;
+}
+.card-img-top::after
+{
+    position: absolute;
+    top: 90%;
+    left: 0;
+
+    width: 100%;
+    height: 50%;
+    padding: 10px;
+    /*content: url("https://www.medallia.com/wp-content/uploads/2019/04/quote-icon@2x.png");*/
+
+    content: '';
+    transform: skewY(6.5deg);
+
+    background: url('https://www.medallia.com/wp-content/uploads/2019/04/quote-icon@2x.png') 20px 20px no-repeat;
+    background-color: #f5f5f5;
+    -webkit-background-size: 25px;
+            background-size: 25px;
+}
+.brand:hover .darker-hover {
+    display: block;
+    animation: all 1s;
+}
+/*.brand img {
+    width: 150px;
+    height: 100px;
+}*/
+.footer
+{
+    background-color: #523b26;}
+.icon-circle
+{
+    width: 40px;
+    height: 40px;
+}
+.icon-absolute
+{
+    top: 50%;
+    left: 50%;
+
+    transform: translate(-50%, -50%);
+
+
+}
+/*.shepherd-element {
+    z-index: 99;
+}
+.shepherd-header {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.betweentitle .shepherd-header {
+    display: flex;
+    justify-content: space-between;
+}
+.guider {
+    font-size: 30px;
+    color: #fff;
+    background: #a36739;
+    display: block;
+    padding: 15px;
+    width: 420px;
+    border: 5px solid #fff;
+}
+.guider button {
+    border: none;
+}
+.guider button:hover {
+    color: #fff;
+}
+.shepherd-cancel-icon {
+    background: none;
+    color: #aaa;
+    font-size: 50px;
+    transition: all 0.1s;
+}
+.shepherd-title {
+    font-size: 40px;
+    color: #fff;
+    font-weight: bold;
+}
+.shepherd-text {
+    font-size: 25px;
+    color: #fff;
+}
+.shepherd-target {
+
+    /*background: #000;
+}
+.shep {
+    border: none;
+    color: #523b26;
+}
+.shepherd-footer {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+}
+.startshep footer {
+    text-align: center;
+}*/
+.guider {
+    width: 270px;
+}
+.guider .shepherd-header {
+    background: #CC6611;
+}
+.guider .shepherd-header h3 {
+    font-weight: bold;
+    font-size: 30px;
+}
+.guider .shepherd-content {
+
+}
+.shepherd-content .shepherd-text {
+    font-size: 20px;
+}
+.guider .shepherd-footer {
+    justify-content: center;
+}
+.guider .shepherd-footer button {
+    width: 50%;
+    background: #382307;
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+}
+body.shepherd-active .shepherd-target.shepherd-enabled {
+    position: relative;
+    box-shadow: 0 0 0 99999px rgba(0, 0, 0, 0.2);
+    z-index: 9999;
+    pointer-events:  auto;
+    /*transition: all 0.3s ease;*/
+}
+
+body.shepherd-active .shepherd-step {
+    pointer-events:  auto;
+    z-index: 9999;
+}
+
+body.shepherd-active {
+    pointer-events:  none !important;
+}
+
+.midnightHeader .white {
+    background: #000;
+    color: #fff;
+}
